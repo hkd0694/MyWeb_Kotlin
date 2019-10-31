@@ -74,11 +74,9 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.action_send_text -> {
                 sendSMS("031-123-4567",webView.url)
-                return true
             }
             R.id.action_email -> {
                 email("gksrudehd123@naver.com","좋은 사이트",webView.url)
-                return true
             }
         }
 
